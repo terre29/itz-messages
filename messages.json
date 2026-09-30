@@ -1,6 +1,20 @@
 {
-  "version": "1.0.1",
-  "homeGreetings": [
+  "version": "1.1",
+  "homeGreetings": "homeGreetings": [
+    {
+      "name": "Pre-Dawn",
+      "startHour": 1,
+      "greeting": ["Good Evening"],
+      "messages": [
+        "This isn't a good hour to be awake to be honest",
+        "Can't sleep?",
+        "The world's asleep — but not you.",
+        "This is when the dark hour lurks...",
+        "You really should be resting.",
+        "Deep night. Everything's still.",
+        "Whatever it is, it can wait till morning."
+      ]
+    },
     {
       "name": "Early Morning",
       "startHour": 4,
@@ -9,7 +23,12 @@
         "Isn't it a bit early?",
         "Good time to start a day isn't it?",
         "Did you sleep good last night?",
-        "Early bird gets the worm they said!"
+        "Early bird gets the worm they said!",
+        "The sun's barely up — and so are you.",
+        "Quiet mornings hit different, huh?",
+        "Coffee first, then the world.",
+        "Beat the alarm, did you?",
+        "The early hours are yours alone."
       ]
     },
     {
@@ -20,7 +39,12 @@
         "What's the plan for today",
         "Ready to make today count?",
         "What will you get done today",
-        "Ready to conquer the day?"
+        "Ready to conquer the day?",
+        "Fresh start — what's first?",
+        "Let's make today a good one.",
+        "New day, new chances.",
+        "What's the one thing you must finish today?",
+        "Rise and grind — gently."
       ]
     },
     {
@@ -31,7 +55,12 @@
         "Still on track for today?",
         "How's the day going?",
         "Any other plan?",
-        "Keep going, and stay strong!"
+        "Keep going, and stay strong!",
+        "Halfway there — how's it looking?",
+        "Time for a quick reset?",
+        "Don't forget to eat something.",
+        "Push through the afternoon slump!",
+        "Momentum check — still rolling?"
       ]
     },
     {
@@ -42,7 +71,12 @@
         "Any plan for dinner?",
         "How did the day go?",
         "Isn't the moon beautiful tonight?",
-        "Just a few lap more!"
+        "Just a few lap more!",
+        "The day's winding down — nicely done.",
+        "What went well today?",
+        "Time to slow the pace a little.",
+        "Golden hour looks good on you.",
+        "Wrap up strong, then rest."
       ]
     },
     {
@@ -52,15 +86,12 @@
       "messages": [
         "It is almost midnight, have you heard about the midnight channel?",
         "Still doing task? Keep it up!",
-        "Beware the dark hour..."
-      ]
-    },
-    {
-      "name": "Pre-Dawn",
-      "startHour": 1,
-      "greeting": ["Good Evening"],
-      "messages": [
-        "This isn't a good hour to awake to be honest"
+        "Beware the dark hour...",
+        "The witching hour approaches...",
+        "Burning the midnight oil again?",
+        "The night is quiet — perfect for focus.",
+        "Don't stay up too late now.",
+        "One more task, then sleep?"
       ]
     }
   ],
