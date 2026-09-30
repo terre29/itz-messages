@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 1.0.1,
   "homeGreetings": [
     {
       "name": "Early Morning",
@@ -60,7 +60,7 @@
       "startHour": 1,
       "greeting": ["Good Evening"],
       "messages": [
-        "This isn't a good hour to be wake up to be honest"
+        "This isn't a good hour to awake to be honest"
       ]
     }
   ],
