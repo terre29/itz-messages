@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "homeGreetings": [
+    {
+      "name": "Early Morning",
+      "startHour": 4,
+      "greeting": ["Good Morning"],
+      "messages": [
+        "Isn't it a bit early?",
+        "Good time to start a day isn't it?",
+        "Did you sleep good last night?",
+        "Early bird gets the worm they said!"
+      ]
+    },
+    {
+      "name": "Morning",
+      "startHour": 6,
+      "greeting": ["Good Morning"],
+      "messages": [
+        "What's the plan for today",
+        "Ready to make today count?",
+        "What will you get done today",
+        "Ready to conquer the day?"
+      ]
+    },
+    {
+      "name": "Afternoon",
+      "startHour": 12,
+      "greeting": ["Good Afternoon"],
+      "messages": [
+        "Still on track for today?",
+        "How's the day going?",
+        "Any other plan?",
+        "Keep going, and stay strong!"
+      ]
+    },
+    {
+      "name": "Evening",
+      "startHour": 18,
+      "greeting": ["Good Evening"],
+      "messages": [
+        "Any plan for dinner?",
+        "How did the day go?",
+        "Isn't the moon beautiful tonight?",
+        "Just a few lap more!"
+      ]
+    },
+    {
+      "name": "Late Night",
+      "startHour": 23,
+      "greeting": ["Good Evening"],
+      "messages": [
+        "It is almost midnight, have you heard about the midnight channel?",
+        "Still doing task? Keep it up!",
+        "Beware the dark hour..."
+      ]
+    },
+    {
+      "name": "Pre-Dawn",
+      "startHour": 1,
+      "greeting": ["Good Evening"],
+      "messages": [
+        "This isn't a good hour to be wake up to be honest"
+      ]
+    }
+  ],
+  "taskAllDone": [
+    "Everything is done! 🎉",
+    "All wrapped up for today! ✨",
+    "That's a wrap — nicely done! 🙌",
+    "You cleared the board! 🎯",
+    "Nothing left on the list! ☕️",
+    "All caught up. Go enjoy! 🌿"
+  ],
+  "gaps": [
+    {
+      "name": "Plenty",
+      "messages": [
+        "You still have {duration} before {task}. What now?",
+        "{duration} until {task} — how will you fill it?",
+        "A free {duration} before {task}. Add something?",
+        "{duration} of open time before {task}. What's next?",
+        "{task} isn't for another {duration}. Make it count?"
+      ]
+    },
+    {
+      "name": "Approaching",
+      "messages": [
+        "{task} is coming up in {duration}.",
+        "Heads up — {task} in {duration}.",
+        "{duration} to go before {task} approaches.",
+        "{task} is on its way: {duration} left."
+      ]
+    },
+    {
+      "name": "Near",
+      "messages": [
+        "{task} is near — {duration} left. Ready?",
+        "Almost time for {task}: {duration} to go. Set?",
+        "{duration} until {task}. Are you ready?",
+        "{task} in just {duration}. Ready for it?"
+      ]
+    },
+    {
+      "name": "Imminent",
+      "messages": [
+        "{task} is about to start — {duration} left.",
+        "Any moment now: {task} in {duration}.",
+        "{task} starts in {duration}. Get set.",
+        "Here we go — {task} in just {duration}."
+      ]
+    }
+  ],
+  "encouragement": {
+    "categories": [
+      {
+        "keywords": ["read", "book", "novel", "chapter", "article"],
+        "messages": [
+          "Reading is a workout for the mind — keep going!",
+          "Every page counts. Enjoy the read!",
+          "Lost in a good book? Stay with it!",
+          "One more chapter — you've got this!"
+        ]
+      },
+      {
+        "keywords": ["study", "learn", "revise", "homework", "exam", "lecture", "class"],
+        "messages": [
+          "Future you will thank you for this. Keep studying!",
+          "One concept at a time — you've got this.",
+          "Learning mode: on. Stay focused!",
+          "Every minute now pays off later. Keep at it!"
+        ]
+      },
+      {
+        "keywords": ["code", "coding", "program", "debug", "build", "develop", "ship"],
+        "messages": [
+          "In the zone — happy coding!",
+          "One bug at a time. You'll crack it!",
+          "Ship it! Stay in the flow.",
+          "Trust the process — the fix is close."
+        ]
+      },
+      {
+        "keywords": ["write", "writing", "journal", "essay", "blog", "draft"],
+        "messages": [
+          "Words on the page beat a blank one. Keep writing!",
+          "Let it flow — you can edit later.",
+          "One sentence at a time. Keep going!",
+          "The first draft just needs to exist. Keep going!"
+        ]
+      },
+      {
+        "keywords": ["workout", "exercise", "gym", "run", "jog", "train", "fitness", "lift", "walk"],
+        "messages": [
+          "Strong work! Keep moving.",
+          "Your body will thank you. Push on!",
+          "One more rep, one more minute — you've got this!",
+          "Sweat now, shine later. Keep going!"
+        ]
+      },
+      {
+        "keywords": ["meditate", "meditation", "breathe", "relax", "yoga", "mindful"],
+        "messages": [
+          "Breathe in, breathe out. You're doing great.",
+          "Be here, now. Enjoy the calm.",
+          "Let it go — stay present.",
+          "This moment is yours. Settle in."
+        ]
+      },
+      {
+        "keywords": ["eat", "lunch", "breakfast", "dinner", "cook", "meal", "snack"],
+        "messages": [
+          "Fuel up — you've earned it!",
+          "Enjoy every bite. Take your time.",
+          "Good food, good mood!",
+          "Refuel and reset. You deserve it."
+        ]
+      },
+      {
+        "keywords": ["clean", "tidy", "laundry", "dishes", "chore", "organize", "organise"],
+        "messages": [
+          "A tidy space, a tidy mind. Keep at it!",
+          "Almost there — finish strong!",
+          "Little by little, it all gets done.",
+          "Future you will love this clean space!"
+        ]
+      },
+      {
+        "keywords": ["sleep", "rest", "nap", "break"],
+        "messages": [
+          "Rest is productive too. Enjoy it.",
+          "Recharge — you've earned the break.",
+          "Slow down. You deserve this.",
+          "Rest now, come back stronger."
+        ]
+      },
+      {
+        "keywords": ["work", "meeting", "email", "call", "project", "task", "deadline"],
+        "messages": [
+          "Heads down — you've got this one.",
+          "One task at a time. Keep the momentum!",
+          "Focus mode: on. Make it count!",
+          "Chip away at it — progress is progress."
+        ]
+      },
+      {
+        "keywords": ["shop", "shopping", "grocery", "groceries", "errand", "errands"],
+        "messages": [
+          "Knock it off the list — you're on a roll!",
+          "In and out — you've got this.",
+          "One errand down. Keep it going!"
+        ]
+      },
+      {
+        "keywords": ["practice", "music", "piano", "guitar", "sing", "draw", "paint", "art"],
+        "messages": [
+          "Practice makes progress. Keep at it!",
+          "Every session counts. Enjoy the craft!",
+          "Trust your hands — keep creating!"
+        ]
+      }
+    ],
+    "generic": [
+      "Keep it up — you've got this!",
+      "Stay focused. You're doing great.",
+      "One step at a time. Keep going!",
+      "You're making it happen!",
+      "Deep breath — you've got this.",
+      "Progress over perfection. Keep moving!",
+      "Little by little becomes a lot.",
+      "You showed up — that's the hard part done!"
+    ]
+  }
+}
