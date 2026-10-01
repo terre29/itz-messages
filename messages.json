@@ -4,7 +4,7 @@
     {
       "name": "Pre-Dawn",
       "startHour": 1,
-      "greeting": ["Good Evening"],
+      "greeting": ["Good Evening 🌕"],
       "messages": [
         "This isn't a good hour to be awake to be honest",
         "Can't sleep?",
@@ -18,7 +18,7 @@
     {
       "name": "Early Morning",
       "startHour": 4,
-      "greeting": ["Good Morning"],
+      "greeting": ["Good Morning 🐦‍⬛"],
       "messages": [
         "Isn't it a bit early?",
         "Good time to start a day isn't it?",
@@ -34,7 +34,7 @@
     {
       "name": "Morning",
       "startHour": 6,
-      "greeting": ["Good Morning"],
+      "greeting": ["Good Morning ☀️"],
       "messages": [
         "What's the plan for today",
         "Ready to make today count?",
@@ -50,7 +50,7 @@
     {
       "name": "Afternoon",
       "startHour": 12,
-      "greeting": ["Good Afternoon"],
+      "greeting": ["Good Afternoon 🌤"],
       "messages": [
         "Still on track for today?",
         "How's the day going?",
@@ -66,7 +66,7 @@
     {
       "name": "Evening",
       "startHour": 18,
-      "greeting": ["Good Evening"],
+      "greeting": ["Good Evening 💫"],
       "messages": [
         "Any plan for dinner?",
         "How did the day go?",
@@ -82,7 +82,7 @@
     {
       "name": "Late Night",
       "startHour": 23,
-      "greeting": ["Good Evening"],
+      "greeting": ["Good Evening 🌕"],
       "messages": [
         "It is almost midnight, have you heard about the midnight channel?",
         "Still doing task? Keep it up!",
