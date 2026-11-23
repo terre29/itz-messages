@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITZ-Time — Support</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #f7f7f8;
+      --text: #111113;
+      --muted: #5c5c66;
+      --border: #e4e4e7;
+      --accent: #007aff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f12;
+        --surface: #18181c;
+        --text: #f4f4f6;
+        --muted: #9e9ea9;
+        --border: #2a2a32;
+        --accent: #0a84ff;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+
+    header {
+      margin-bottom: 36px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      font-size: 32px;
+      line-height: 1.2;
+      margin: 0 0 10px;
+      letter-spacing: -0.02em;
+    }
+
+    .tagline {
+      font-size: 17px;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    section {
+      margin-top: 32px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 0 0 12px;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-top: 12px;
+    }
+
+    .email-link {
+      display: inline-block;
+      font-weight: 600;
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .email-link:hover {
+      text-decoration: underline;
+    }
+
+    details {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin-bottom: 10px;
+    }
+
+    summary {
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details p {
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="badge">App Support</div>
+      <h1>ITZ-Time</h1>
+      <p class="tagline">Plan your day. Handle the unexpected. See how far you’ve come.</p>
+    </header>
+
+    <section id="contact">
+      <h2>Contact &amp; Feedback</h2>
+      <p>
+        Need help with ITZ-Time, found a bug, or have a suggestion? Reach out anytime—every message goes directly to the developer.
+      </p>
+      <div class="card">
+        <strong>Email Support:</strong><br />
+        <a class="email-link" href="mailto:you@example.com?subject=ITZ-Time%20Support">you@example.com</a>
+        <p style="margin: 8px 0 0; font-size: 14px; color: var(--muted);">
+          Typical response time: within 1–2 business days. When reporting an issue, sharing your iOS version and a brief description helps a lot.
+        </p>
+      </div>
+    </section>
+
+    <section id="faq">
+      <h2>Quick Questions</h2>
+
+      <details open>
+        <summary>How do interruptions work?</summary>
+        <p>
+          When something unexpected comes up, log the interruption inside ITZ-Time so you can adjust the rest of your schedule without losing track of what you planned.
+        </p>
+      </details>
+
+      <details>
+        <summary>What is the idea space for?</summary>
+        <p>
+          It’s a low-friction place to capture tasks or thoughts the moment they pop into your head. Whenever you’re ready to schedule them, turn any idea into a task with one tap.
+        </p>
+      </details>
+
+      <details>
+        <summary>Can I see tasks I’ve already completed?</summary>
+        <p>
+          Yes. ITZ-Time keeps a history of your past tasks so you can look back at how you actually spent your time and track your progress.
+        </p>
+      </details>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy Policy</h2>
+      <p>
+        ITZ-Time is built to stay out of your way and respect your privacy. Your tasks, ideas, and schedule history are stored on your device (and your personal iCloud account if sync is enabled) and are never sold or shared with third-party advertisers.
+      </p>
+      <p>
+        If you email support, your email address and message are used solely to respond to your request. For any privacy questions, contact
+        <a class="email-link" href="mailto:you@example.com?subject=ITZ-Time%20Privacy">you@example.com</a>.
+      </p>
+    </section>
+
+    <footer>
+      © 2026 ITZ-Time. Built for real days, not perfect ones.
+    </footer>
+  </main>
+</body>
+</html>
